@@ -79,11 +79,11 @@ function Header() {
         <div ref={openModal} className="header__modal" >
           <div className="header__modal--box">
             <button className="header__modal--close" onClick={modalFunc}>X</button>
-            <h2 className="header__modal--title">Zakaz berish</h2>
+            <h2 className="header__modal--title">Заказать</h2>
             <form action="/" className="header__modal--form" onSubmit={sendToBot}>
               <input ref={orderedUserName} className="header__modal--input" type="text" placeholder="Имя" />
-              <input ref={orderedUserPhone} className="header__modal--input" type="tel" placeholder="Телефон номер" />
-              <button type="submit" className="header__modal--btn">Yuborish</button>
+              <input ref={orderedUserPhone} className="header__modal--input" type="tel" placeholder="Номер телефона" />
+              <button type="submit" className="header__modal--btn">Отправить</button>
             </form>
           </div>
         </div>

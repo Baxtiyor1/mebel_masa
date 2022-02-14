@@ -1,3 +1,181 @@
 .footer {
-  background-color: green;
+  height: 244px;
+  
+  background-color: rgb(255, 255, 255);
+}
+
+.social__media {
+  height: 104px;
+  border-bottom: 2px solid #BABABA;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+  
+  color: #000000;
+  
+  &__link {
+    cursor: pointer;
+    color: #000000;
+  }
+  
+  &__link:hover {
+    color: burlywood;
+  }
+}
+
+.adress-sec {
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  
+  &__menu {
+    width: 364px;
+    height: 53px;
+    margin-right: 125px;
+    
+    
+    &__title {
+      margin-bottom: 10px;
+      
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 24px;
+      /* identical to box height */
+      font-weight: bold;
+      
+      
+      color: #898989;
+    }
+    
+    
+  }
+}
+
+.address-sec__menu__ul {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  
+  
+  color: #242424;
+  
+  
+  
+}
+
+.address-sec__menu__link {
+  margin-right: 20px;
+}
+
+.address-sec__a {
+  cursor: pointer;
+  color: #242424;
+}
+
+.address-sec__adress {
+  width: 166px;
+  margin-right: 148px;
+  
+}
+
+.address-sec__adress__title {
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+  font-weight: bold;
+  
+  
+  color: #898989;
+}
+
+
+.address-sec__menu__title,
+.contact-sec__title {
+  
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+  font-weight: bold;
+  margin-bottom: 10px;
+  
+  color: #898989;
+}
+
+.address-sec__address__p {
+  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  
+  
+  color: #242424;
+}
+
+.contact-sec {
+  width: 334px;
+}
+
+.contact-sec__title {
+  
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+  font-weight: bold;
+  
+  
+  color: #898989;
+}
+
+.contact-div {
+  display: flex;
+  align-items: center;
+}
+
+.contact-sec__a {
+  margin-right: 30px;
+  
+  font-style: bold;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  
+  
+  color: #242424;
+}
+
+.contact-sec__a:hover {
+  color: burlywood
+}
+
+.address-sec__adress__title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.address-sec__menu__link:hover {
+  color: burlywood
 }
